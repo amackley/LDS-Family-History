@@ -1,0 +1,51 @@
+TYPE	DESCRIPTION	OFFICIAL	ALTERNATE
+DESCRIPTOR	The superpowered ability to fly.	Flight	Levitation
+DESCRIPTOR	The superpowered ability to lift a super-human amount of weight.	Super Strength	
+DESCRIPTOR	The superpowered ability to turn invisible.	Invisibility	
+DESCRIPTOR	The superpowered ability to move at super-human speed.	Super Speed	
+DESCRIPTOR	The superpowered ability to emit powerful lasers from the eyes.	Laser Vision	Heat Vision
+DESCRIPTOR	The superpowered ability to withstand blows of tremendous force without any harm.	Invulnerability	
+DESCRIPTOR	The superpowered ability to read minds.	Telepathy	
+DESCRIPTOR	The superpowered ability to move objects with the mind.	Telekenisis	
+DESCRIPTOR	The superpowered ability to spontaneously generate ice.	Ice Generation	
+DESCRIPTOR	The superpowered ability to spontaneously generate fire.	Fire Generation	
+DESCRIPTOR	The superpowered ability to spontaneously generate wind.	Wind Generation	
+DESCRIPTOR	The superpowered ability to change the shape of one's body to resemble other objects or people.	Shape Shifting	
+DESCRIPTOR	The superpowered ability to rapidly heal from illness or injury.	Healing Ability	Regeneration
+DESCRIPTOR	The superpowered ability to generate a force field around oneself or others.	Force Field	Energy Field
+DESCRIPTOR	The superpowered ability to control the weather.	Weather Control	
+DESCRIPTOR	The superpowered ability to pass one solid object through another solid object without damaging either.	Phasing	
+DESCRIPTOR	The superpowered ability to instantaneously pass from one location to another.	Teleportation	
+DESCRIPTOR	The superpowered ability to speack to animals.	Zoolingualism	
+DESCRIPTOR	"The superpowered ability to scale walls without any type of hand or foot holds, or equipment."	Wall-Crawling	
+DESCRIPTOR	The superpowered ability to see future events.	Precognition	
+DESCRIPTOR	The superpowered ability to travel through time to the past or future.	Time Travel	
+DESCRIPTOR	"The superpowered ability to telepathically move stone or dirt, often in large quantities."	Earth Manipulation	
+DESCRIPTOR	The superpowered ability to spontaneously generate electricity.	Electricity Power	
+DESCRIPTOR	The superpowered ability to telepathically manipulte magnetic metals.	Magnetism Manipulation	
+DESCRIPTOR	The superpowered ability to generate super-humanly powerful sound waves.	Sound Generation	
+DESCRIPTOR	The superpowered ability to take control of someone's mind.	Possession	
+DESCRIPTOR	The superpowered ability to change a person's memory.	Memory Manipulation	
+DESCRIPTOR	The superpowered ability to learn things about the past or future of an object by touching it.	Psychometry	
+DESCRIPTOR	The superpowered ability to generate acid.	Acid Generation	
+DESCRIPTOR	"The superpowered ability to stretch one's bones, muscles, and other tissues."	Elasticity	
+DESCRIPTOR	"The superpowered ability to grow to superhuman size, and return to normal size."	Growth	
+DESCRIPTOR	"The superpowered ability to shrink one's body to sub-human size, and return to normal size."	Shrinking	
+DESCRIPTOR	"The superpowered ability to duplicate one's body, and reabsorb the duplicates."	Self-duplication	
+DESCRIPTOR	The superpowered ability to absorb power from others bodies.	Power Absorbtion	
+DESCRIPTOR	The superpowered ability to negate other's super powers.	Power Negation	
+DESCRIPTOR	"The superpowered ability to manipulate one's own or others luck, for better or worse."	Luck Manipulation	
+DESCRIPTOR	The superpowered ability to generate illusions of reality.	Illusion	
+DESCRIPTOR	The superpowered ability to create connections with alternate dimensions.	Dimension Manipulation	
+DESCRIPTOR	The superpowered ability to remain in one place regardless of external forces.	Immutability	
+DESCRIPTOR	The superpowered ability to change ones exterior appearance to blend with the environment.	Camouflage	
+DESCRIPTOR	The superpowered ability to breath under water.	Aquatic Resperation	
+DESCRIPTOR	The superpowered ability to move with super-human agility.	Enhanced Agility	
+DESCRIPTOR	The superpowered ability to bend ones joints and limbs beyond normal human ability.	Enhanced Dexterity	
+DESCRIPTOR	The superpowered ability to view the infrared spectrum of light.	Infrared Vision	
+DESCRIPTOR	The superpowered ability to view x-rays.	X-Ray Vision	
+DESCRIPTOR	The superpowered ability to view farther and in higher resolution than normal human ability.	Telescopic Vision	
+DESCRIPTOR	A superpower that increases a person's intelligence beyond normal human limits.	Enhanced Intelligence	
+DESCRIPTOR	The superpowered ability to hypnotize other human beings.	Hypnosis	Telepathic control
+DESCRIPTOR	The superpowered ability to grow or control plant life.	Plant Manipulation	
+DESCRIPTOR	The superpowered ability to access supernatural powers to perform work or gain knowledge.	Magic	

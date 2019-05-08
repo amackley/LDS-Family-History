@@ -4,14 +4,19 @@ import datetime
 
 def writeALine(theLine):
   #Open write to and close output file
-    outputfile = open("Super Powers OutputTest.txt", "a")
+    outputfile = open("Super Powers Output.txt", "a")
     outputfile.write(theLine)
     outputfile.write('\n')
     outputfile.close()
 
 
 def createConcept(concept):
-  l = ('create_concept  ' + '$conceptId' + str(concept[0])+ '\t' + concept[2])
+  cleanString = str(concept[2])
+  cleanString = cleanString.replace('"', '')
+  
+                   
+  # string.strip([chars])  
+  l = ('create_concept  ' + '$conceptId' + str(concept[0])+ '\t' + cleanString)
   # print(l)
   writeALine(l)
   
@@ -72,12 +77,10 @@ def updateList(theList):
 
 def main():  
    
-  #Get Name of list from Name of the File. Use the OS file commands to do this.
-  #Strip the extension off the name of the file. 
   
   # Open the file for reading 
-  inputfile = open("Super Powers Descriptor List.csv", "r")
-  outputfile = open("Super Powers OutputTest.txt", "w+")
+  inputfile = open("Super Powers Descriptor List.tab.txt", "r")
+  outputfile = open("Super Powers Output.txt", "w+")
   outputfile.close()
 
   
@@ -90,8 +93,9 @@ def main():
   if inputfile.mode == 'r':
     fl = inputfile.readlines()
     currentLine = ''
+    # Iterate through each line, split the line on the tabs, Then create concepts, update the concepts, and create the terms.
     for x in fl:
-      attribs = x.split(",")
+      attribs = x.split("\t")
       i = int(fl.index(x)) +1 #To get the index to match the spreadsheet line numbers. Probably not necessary, but...
       attribs.insert(0,i)
       if attribs[0] == 1: #Ignore the First line which includes the titles
@@ -100,9 +104,6 @@ def main():
       createConcept(attribs)
       updateConcept(attribs)
       createTerm(attribs)
-      # #  # currentLine = currentLine + str(attrib) + '\t'
-      # #  # print(attrib)
-      # # #writeALine(currentLine)
     
     global theTermDict
     theTermListToSend = ''
